@@ -1,0 +1,56 @@
+body{
+	background-color: #f2f2f2;
+}
+.navbar{
+	background-color: #f4ef0b;
+}
+.old-value{
+	color: grey;
+	text-decoration: line-through;
+	font-size: 15px;
+}
+.new-value{
+	color: orange;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 1200px) {
+  .old-value{
+    font-size: 12px;
+  }
+  .new-value{
+    font-size: 14px;
+  }
+
+}
+@media screen and (max-width: 767px) {
+  .old-value{
+    font-size: 14px;
+  }
+  .new-value{
+    font-size: 15px;
+  }
+
+}
+@media screen and (max-width: 300px) {
+  .old-value {
+    font-size: 10px;
+  }
+  .new-value{
+    font-size: 13px;
+  }
+  h5{
+    font-size: 15px;
+  }
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+footer{
+	background-color: #f4ef0b;
+}
+
